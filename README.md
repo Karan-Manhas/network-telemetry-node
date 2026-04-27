@@ -21,6 +21,13 @@ Most embedded projects expose functionality but lack structured observability.
 
 SixEyes explores how telemetry and health monitoring can be applied to constrained edge devices, providing better visibility into system behaviour, reliability, and failure modes.
 
+## What this demonstrates
+
+- Designing a telemetry agent for constrained edge devices
+- Building a health model (not just exposing metrics)
+- Handling unreliable networks (reconnect tracking and rate analysis)
+- Structuring observability into metrics, health, and event streams
+
 ---
 
 ## Features
@@ -31,7 +38,17 @@ SixEyes explores how telemetry and health monitoring can be applied to constrain
 - Structured event logging (INFO / WARN / ERROR)  
 - Connection health status banner
 ---
-## Architecture 
+## Architecture  Concepts
+This project follows a  pattern similar to node-level observability agents:
+- Collect telemetry (Wi-Fi + system) 
+- Obtain health state
+- Expose structured APIs
+- Provide dashboard
+
+System patterns exist in:
+- Datadog agents
+- Prometheus exporters
+- Sidecar telemetry agents
 
 ### Runtime Flow
 <p align="center">
@@ -54,6 +71,10 @@ The lower-level architecture decomposes the runtime into logical components:
 
 The above showcases seperation of concerns, and how telemetry data is actually transformed.
 
+## Project Structure
+
+- src/main.cpp – core telemetry agent
+- /assets – dashboard images and diagrams
 
 ## Design Goals
 
