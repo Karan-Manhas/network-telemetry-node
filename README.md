@@ -126,6 +126,7 @@ Free heap is exposed as a core metric to help detect memory pressure, fragmentat
 ### Watchdog / Reset Awareness
 
 Uptime is exposed so unexpected resets can be detected indirectly. A sudden drop in uptime indicates a reboot or device restart.
+
 ---
 ## Telemetry Schema
 Table below summarises the metrics measured in this interface.
