@@ -13,7 +13,10 @@ This project (SixEyes) is a lightweight edge telemetry agent for constrained dev
 
 Running on an ESP32, it provides real-time observability into device and network state, exposing structured telemetry via HTTP APIs and a minimal dashboard interface.
 
-The system applies production-style observability concepts—health modelling, event logging, and metric aggregation—to embedded environments with limited resources.
+The system applies production-style observability concepts, health modelling, detailed event logging, and metric aggregation to embedded environments with constrained resources.
+
+## Demo
+![Demo](./assets/demo.gif)
 
 
 ## Why This Exists
