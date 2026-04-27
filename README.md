@@ -487,3 +487,7 @@ The following are being considered to evolve this into a more prod-ready edge te
 - Device identification and multi-device aggregation
 
 These improvements are intentionally scoped to for feature growth considering the constraints of embedded hardware.
+
+## Support
+
+If you do happen to find this useful, feel free to star the repo.
