@@ -7,6 +7,12 @@ ESP32-hosted Wi-Fi telemetry dashboard and lightweight HTTP APIs for local netwo
 </p>
 
 ---
+
+
+## Demo
+![Demo](./assets/demo.gif)
+
+
 ## Overview
 
 This project (SixEyes) is a lightweight edge telemetry agent for constrained devices.
@@ -15,8 +21,6 @@ Running on an ESP32, it provides real-time observability into device and network
 
 The system applies production-style observability concepts, health modelling, detailed event logging, and metric aggregation to embedded environments with constrained resources.
 
-## Demo
-![Demo](./assets/demo.gif)
 
 
 ## Why This Exists
