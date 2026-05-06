@@ -488,6 +488,19 @@ The following are being considered to evolve this into a more prod-ready edge te
 
 These improvements are intentionally scoped to for feature growth considering the constraints of embedded hardware.
 
+## Built With
+
+| Layer | Technology |
+|---|---|
+| Hardware | ESP32 Dev Module |
+| Firmware Language | C++ (Arduino Framework) |
+| ESP32 SDK | ESP-IDF v5.5.4 |
+| Arduino Core | v3.3.8 |
+| HTTP Server | ESP32 WebServer library |
+| Dashboard | Vanilla HTML/CSS/JS (served from ESP32) |
+| IDE | Arduino IDE |
+| Protocol | HTTP/1.1 (REST) |
+
 ## Support
 
-If you do happen to find this useful, feel free to star the repo.
+If you do happen to find this useful, feel free to star the repo!
